@@ -1,0 +1,10 @@
+# Robot Vision System – dependencies
+# Install with:  pip install -r requirements.txt
+
+opencv-python>=4.8.0
+python-dotenv>=1.0.0
+
+# Roboflow Inference – runs models locally after one-time download
+# Use 'inference-gpu' instead if you have an NVIDIA GPU:
+#   pip install inference-gpu
+inference>=0.9.0
